@@ -1,6 +1,6 @@
 
 	I am using the book The Art and Science of Java by Eric Roberts to dive
-into computer science. In this Repository I will be posting my responses to
+into computer science. In this Repo I will be posting my responses to
 the review questions at the end of each chapter as well as any code I write
 as part of the exercises in the book.
 

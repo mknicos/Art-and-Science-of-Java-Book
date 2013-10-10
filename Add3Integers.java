@@ -1,3 +1,6 @@
+Matt Knicos
+mknicos@gmail.com
+
 import acm.program.*; 
 
 /*

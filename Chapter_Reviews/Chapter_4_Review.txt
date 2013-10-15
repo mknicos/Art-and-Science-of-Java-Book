@@ -1,0 +1,33 @@
+matt knicos
+mknicos@gmail.com
+
+
+THE ART AND SCIENCE OF JAVA BY ERIC S. ROBERTS
+
+Chapter 4 Review
+
+1. While it is a legal statement, it is not useful at all
+
+2. A block is another name for a compound statement. It is a collection of statements and declarations, usually inside curly braces
+
+3. Control statements can either be conditional or iterations.
+
+4. Nested would be having an "if" statement inside another "if" statement or an "if" statement inside a "while" statement. These are just two examples of many possibilities of nesting.
+
+5.	If statements can have many forms, they are listed on page 107, and include: single line, multiline, if-else, and cascading if.
+
+6.	The switch statement is useful when you aren't just deciding weather or not something is true of false, and instead have numerous mutually exclusive cases. The syntax starts with switch (e) and then has a "case" before each statement. Always remember to put break; after each case statement.
+
+7.	It would continue its loop. The while loop evaluates its beginning statement to be true or false only at the beginning and then carries out the entire statement even if the original statement becomes false during the execution. It will still execute the entire statement.
+
+8.	The program wouldn't run with a negatie number.
+
+9.	When a loop contains some operations that must be performed before testing for completion, it is a loop-and-a-half problem. You can use a "break" in a while loop to account for this while writing the code as -- while (true) -- this would theoretically cause the loop to be an infinite loop and is why you would need the "break" somewhere in the code. Another method would be to prompt the user for input before the loop begins and again once the loop starts.
+
+10.	In a for control statement the three expressions are: init- a declaration that initializes the loop index variable. test- a conditional test used to determine whether the loop should continue. step- an expression used to prepare for the next loop cycle
+
+12.	Floating point variables inevitably round at some point and therefor may return unpredictable results when using them to count.
+
+13. This chapter implements animations by using a loop, with a set pause time between the loop.
+
+14.	If there was no pause the computer would complete the loop so quickly the human eye would not detect the movement, instead it would seem like the box just jumped to the other corner of the screen.

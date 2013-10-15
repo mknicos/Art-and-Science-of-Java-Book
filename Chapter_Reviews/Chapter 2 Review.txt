@@ -1,0 +1,63 @@
+		Matt Knicos mknicos@gmail.com
+
+		Chapter 2 Review Responses from the book The Art and Science of Java
+	by Eric Roberts
+
+		When possible, the answers will be worded in a way that will
+	hopefully contextually express what the question was. Extremely basic
+	questions are left out, as this is not an exercise in my typing, but
+	rather a tool to track my progress and a way to help me fully understand
+	the material
+
+		2.	A library package is a collection of tools written by other
+	programmers that perform specific operations
+
+		3.	The method name is "run" that is executed when a Java program
+	starts under the control of the acm.program package
+
+		5.	The println method will display the argument string and then
+	return to the beginning of the next line. It stands for "print line". In
+	the ConsoleProgram, you can use just "print" and it will not start a new
+	line.
+
+		6. The readInt method prints its argument to the screen, with the
+	desired effect to prompt the user to input a integer. It will pass that
+	integer along to the "run" program or returns the value the user typed.
+
+		7.	The "+" is an example of an expression. It will do the
+	arithmetic version of the sign and add two numbers, or it can concatenate
+	two strings. If there are are any parts of the expression that are not
+	strings, Java converts them into standard string representation before
+	concatenation.
+
+		8.	Holism recognizes that the whole is often more important that
+	the sum of its parts, whereas reductionism looks at the parts that make
+	up the whole.
+
+		9.	A class is an extensible template that specifies the structure
+	of a particular style of object. An object is a conceptually integrated
+	entity that encapsulates both "state" and "behavior."
+
+		10.	A subclass is an extension of a superclass. A subclass
+	inherits the behaviors and abilities of its superclass
+
+		11.	"new" is a Java keyword associated with the use of a
+	constructor.
+
+		12.	A DialogProgram utilizes pop-up boxes to interact with the
+	user, whereas a ConsoleProgram utilizes the text based window.
+
+		14.	You attach the message to the object e.g. receiver.name(arg)
+	the receiver is the object
+
+		15.	Under the GObject superclass this chapter discusses GLabel,
+	GRect, GOval, GLine
+
+		16. GLabel responds to the method setFont while the GRect and GOval
+	respond to the method setFilled
+
+		17. Any of the subclasses of the GObject class will repsond to the
+	method setColor since they all inherit that from GObject
+
+		18.	Java's coordinate system starts with 0,0 as the upper-left
+	most point on the screen.

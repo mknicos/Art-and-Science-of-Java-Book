@@ -30,6 +30,10 @@ public class CheckerboardBuilder extends GraphicsProgram{
 				GRect square = new GRect( x , y , sqrSize, sqrSize);
 				square.setFilled((i+j) % 2 != 0);
 				add(square);
+//				pause(500);
+//	Adding this pause here, really helped me understand the loops, and how they are working
+// I might try this more often, and I recommend it if you are having issues with thinking 
+// about loops. Just "uncomment" the pause and its basically an animation of building the board.
 			}
 		}
 	}

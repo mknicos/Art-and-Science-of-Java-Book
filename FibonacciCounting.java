@@ -1,0 +1,37 @@
+//Matt Knicos
+//mknicos@gmail.com
+
+
+import acm.program.*;
+
+@SuppressWarnings("serial")
+/*The Art and Science of Java Chapter 4, EX 9
+ * This program will compute and print out the Fibonacci Numbers. It will
+ * start with 1 and end at whatever the constant variable FIB_NUM_END is \
+ * set at. Honestly, this was a lot of "code guessing" and testing until
+ * it turned out to work. Something about the simplicity of the pattern
+ * I couldn't wrap my head around.
+ */
+public class FibonacciCounting extends ConsoleProgram{
+	public void run(){
+		println("This program will print out the Fibonacci Numbers");
+		int fNum1 = 0;
+		int fNum2 = 1;
+		int count = 0;
+		int total = 0;
+		println(fNum1);
+		while(count <= FIB_NUM_END){
+			total = fNum1 + fNum2;
+			println(total);
+			fNum1 = fNum2;
+			fNum2 = total;
+			count ++;
+			
+		}
+		
+		
+	}
+
+	
+private final static int FIB_NUM_END = 25;
+}

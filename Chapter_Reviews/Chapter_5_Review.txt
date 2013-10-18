@@ -1,0 +1,37 @@
+Matt Knicos
+mknicos@gmail.com
+
+
+The Art and Science of Java by Eric Roberts
+
+Chapter 5 Review
+
+1.	A method is a collection of statements that perform a function of some kind inside a program. A programs is a collection of methods that perform a function for a user.
+
+2.	A call to the method, is the act of telling the program you would like to execute the set of statements associated with the method. Arguments are in parenthesis and are passed on as variables into the method. They allow the method to be "called" in a modifiable way and in a sense allows it to be customized easily for your situation. The return is the value that is produced when the method is finished. If the method doesn't return a value, its return is "void".
+
+3.	ReadInt is used when you would like the method to be more interactive with the user, especially in cases in which the method will be used by non programmers. When you pass information to the method through other arguments it allows for that information to be passed to the method from other methods however which is an advantage in many cases.
+
+4.	To return a value, you start a line with return ,followed by an expression, such as return x;
+
+5.	Yes, you can return any number of variables in a method.
+
+6.	To apply the method to an object you call the method by the format: reciever.method(arguments)
+
+7.	Sometimes the sending and recieving of the method calls is the same. A lot of the methods we have been using were like this, such as println("xxxx").
+
+8.	A call to return the value in a case statement will also break the loop.
+
+9.	A predicate method is one that returns a boolean value of either True or False.
+
+10.	To determine if two strings have the same characters, you need to use the "equals" method. Using == doesn't work, it is used to determine if two values are the "same" object.
+
+12.	Local variables are only visible in the method that they are used in. For lack of a better description, outside the curly braces of that particular method, you can use the variable name again and it will not effect other methods.
+
+13.	The return address is the point at which the program continues at the spot where the call to the method was made.
+
+14.	Stepwise refinement is another way of saying top down refinement. It's looking at the big picture before you start writing code and starting, in our cases so far, with the "run" method, and then slowly filling in code details for the smaller parts that make up the big picture.
+
+15.	A brute-force algorithm is one that loops through every single possibility before returning an answer.
+
+16.	
